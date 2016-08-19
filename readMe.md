@@ -18,7 +18,7 @@ npm install @partially-applied/simple-log
 simple-log = require '@partially-applied/simple-log'
 
 
-log = simple-log.of! # its possible to pass a config param to the constructor
+log = simple-log! # its possible to pass a config param to the constructor
 
 # log has only functions
 
@@ -61,7 +61,7 @@ display:
 
 simple-log = require '@partially-applied/simple-log'
 
-log = simple-log.of!
+log = simple-log!
 
 log.stack 0,2
 
@@ -82,7 +82,7 @@ log.stack 1,3
 
 simple-log = require '@partially-applied/simple-log'
 
-log = simple-log.of (display:(stack:false))
+log = simple-log (display:(stack:false))
 
 
 log.stack! # nothing gets logged - no side effects.
