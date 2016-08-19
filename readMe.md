@@ -1,8 +1,8 @@
 
 
-### simple-log
+## simple-log
 
-very simple logging library for printing stack
+#### helper functions for logging
 
 ```
 
